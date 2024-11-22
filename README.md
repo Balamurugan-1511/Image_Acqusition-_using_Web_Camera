@@ -33,6 +33,7 @@ Program:
 ### Developed By:Bala murugan
 ### Register No:212222230017
 ## i) Write the frame as JPG file
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 ret, frame = videoCaptureObject.read()
@@ -40,7 +41,9 @@ if ret:
     cv2.imwrite("bala.jpg", frame)
 videoCaptureObject.release()
 cv2.destroyAllWindows()
+```
 ## ii) Display the video
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -51,7 +54,10 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+```
+
 ## iii) Display the video by resizing the window
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -70,7 +76,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+```
 ## iv) Rotate and display the video
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -89,7 +97,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-Output
+```
 ## Output
 
 ### i) Write the frame as JPG image
